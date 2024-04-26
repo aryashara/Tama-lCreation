@@ -1,20 +1,38 @@
 
 
-.card-phto{
-    background-color: rgb(16, 15, 15);
-   
-}
-        
-        
-        
-   
 
-#photo{
-    border :2px solid rgb(253, 0, 0);
-    margin: auto;
-  
+
+    
+
+ span {
+   
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(252, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 12px 12px 12px 12px rgba(232, 236, 238, 0.378);
+    resize: none;
+    padding: 1rem;
+    border-radius: 15%;
+    z-index: 1;
+}
+#titre{
+    font-size: 35px;
+}
+p{
+    padding: 20px;
+    text-underline-offset: 8px;
+}
+span{
+align-self:center;
+background: rgba(69, 68, 68, 0.87);
+z-index: 1;
 }
 img{
-    height: 70vh;
-    width: 80vh;
+    width: auto;
+    height: 950px;
 }
+// .card-des{
+   
+//    z-index: 1;
+// }

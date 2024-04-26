@@ -3,3 +3,28 @@ img{
     justify-content: center;
     opacity: 0.5;
 }
+
+span {
+   
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 12px 12px 12px 12px rgba(157, 195, 215, 0.378);
+    resize: none;
+    padding: 1rem;
+    border-radius: 15%;
+    z-index: 1;
+}
+#titre{
+    font-size: 35px;
+}
+p{
+    padding: 20px;
+    text-underline-offset: 8px;
+}
+span{
+align-self:center;
+background: rgba(255, 255, 255, 0.733);
+z-index: 1;
+}

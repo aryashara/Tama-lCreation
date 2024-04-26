@@ -6,13 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContainerComponent } from './components/Components/container/container.component';
+import { ContainerComponent } from './components/container/container.component';
 import { NavbarComponent } from './components/Components/navbar/navbar.component';
 import { ProjectPhotoComponent } from './components/Components/project-photo/project-photo.component';
 import { ProjectFrontEndComponent } from './components/Components/project-front-end/project-front-end.component';
-import { ProjectBackEndComponent } from './components/Components/project-back-end/project-back-end.component';
 import { DescriptionComponent } from './components/Components/description/description.component';
 import { SpeedInsights } from "@vercel/speed-insights/next";
+
+
 
 @NgModule({
   declarations: [
@@ -24,14 +25,14 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
     NavbarComponent,
     ProjectPhotoComponent,
     ProjectFrontEndComponent,
-    ProjectBackEndComponent,
+    
     DescriptionComponent,
-    SpeedInsights
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SpeedInsights
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
