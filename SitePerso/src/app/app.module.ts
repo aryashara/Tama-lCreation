@@ -12,7 +12,7 @@ import { ProjectPhotoComponent } from './components/Components/project-photo/pro
 import { ProjectFrontEndComponent } from './components/Components/project-front-end/project-front-end.component';
 import { ProjectBackEndComponent } from './components/Components/project-back-end/project-back-end.component';
 import { DescriptionComponent } from './components/Components/description/description.component';
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 @NgModule({
   declarations: [
@@ -25,11 +25,13 @@ import { DescriptionComponent } from './components/Components/description/descri
     ProjectPhotoComponent,
     ProjectFrontEndComponent,
     ProjectBackEndComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    SpeedInsights
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SpeedInsights
   ],
   providers: [],
   bootstrap: [AppComponent]
