@@ -12,6 +12,7 @@ import { ProjectPhotoComponent } from './components/Components/project-photo/pro
 import { ProjectFrontEndComponent } from './components/Components/project-front-end/project-front-end.component';
 import { DescriptionComponent } from './components/Components/description/description.component';
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ObjectPersoComponent } from './components/Components/object-perso/object-perso.component';
 
 
 
@@ -27,6 +28,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
     ProjectFrontEndComponent,
     
     DescriptionComponent,
+         ObjectPersoComponent,
     
   ],
   imports: [

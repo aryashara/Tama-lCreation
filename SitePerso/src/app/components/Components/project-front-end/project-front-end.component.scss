@@ -8,9 +8,9 @@ span {
    
     justify-content: center;
     font-size: 30px;
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-shadow: 12px 12px 12px 12px rgba(157, 195, 215, 0.378);
+    box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, 0.378);
     resize: none;
     padding: 1rem;
     border-radius: 15%;
@@ -25,6 +25,6 @@ p{
 }
 span{
 align-self:center;
-background: rgba(255, 255, 255, 0.733);
+background: -webkit-linear-gradient(90deg, rgba(133, 131, 131, 0.79) 0%, rgba(105, 105, 104, 0.79) 50%, rgba(149, 143, 143, 0.79) 80%);
 z-index: 1;
 }

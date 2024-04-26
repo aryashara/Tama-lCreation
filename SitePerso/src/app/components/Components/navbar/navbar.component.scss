@@ -1,14 +1,14 @@
-.navbar-nav-scroll
-{
- height: 75vh;
- overflow-y: auto;
-}
+
 .navbar{
-    background-color: #c7eef7 ;
+    background: -webkit-linear-gradient(90deg, rgba(6, 6, 6, 0.676) 0%, rgba(12, 80, 105, 0.427) 50%, rgba(0, 0, 0, 0.792) 80%);
     font-size: 40px;
     
 }
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+}
+#contact{
+    margin-left: 1385px;
+ 
 }
